@@ -1,9 +1,1 @@
-  var formatters = config.Formatters;
-            var jsonFormatter = formatters.JsonFormatter;
-            var settings = jsonFormatter.SerializerSettings;
-            settings.Formatting = Newtonsoft.Json.Formatting.Indented;
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
-            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("application/text"));
-            //config.Formatters.JsonFormatter.SerializerSettings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
-            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.NullValueHandling = NullValueHandling.Include;
-            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.DateFormatString = "MM/dd/yyyy";
+https://cpcontents.adobe.com/public/newlearner/newlearner_b651d9c3.html?i_qp_user_id=3483805&accountId=44255
